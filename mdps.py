@@ -120,7 +120,7 @@ if (selected == 'Breast Cancer Prediction'):
     with col3:
         perimeter_mean = st.text_input('Mean Perimeter')
    
-   with col4:
+    with col4:
         area_mean = st.text_input('Mean Area')
     
     with col1:
