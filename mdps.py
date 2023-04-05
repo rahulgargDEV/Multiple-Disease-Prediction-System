@@ -208,7 +208,7 @@ if (selected == 'Breast Cancer Prediction'):
    # creating a button for Prediction
    
     if st.button('Breast Cancer Disease Test Result'):
-       breastCancer_prediction = breastCancer_model.predict([[radius_mean,	texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean, concavity_mean, concave_points_mean, symmetry_mean, fractal_dimension_mean,radius_error,texture_error,perimeter_error,area_error,smoothness_error,compactness_error,concavity_error,concave_point_error,symmetry_error,symmetry_mean,fractal_dimension_error,worst_radius,worst_texture,worst_perimeter,worst_area,worst_smoothless,worst_compactness,worst_concavity,worst_concave_points,worst_symmetry,worst_fractal_dimension]])                          
+       breastCancer_prediction = breastCancer_model.predict([[radius_mean,texture_mean,perimeter_mean, area_mean, smoothness_mean, compactness_mean, concavity_mean, concave_points_mean, symmetry_mean, fractal_dimension_mean,radius_error,texture_error,perimeter_error,area_error,smoothness_error,compactness_error,concavity_error,concave_point_error,symmetry_error,fractal_dimension_error,worst_radius,worst_texture,worst_perimeter,worst_area,worst_smoothless,worst_compactness,worst_concavity,worst_concave_points,worst_symmetry,worst_fractal_dimension]])                          
        
        if (breastCancer_prediction[0] == 'B'):
           breastCancer_diagnosis = 'The Breast cancer is Benign'
