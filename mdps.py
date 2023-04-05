@@ -73,17 +73,17 @@ if (selected == 'Heart Disease Prediction'):
     #input fields 
     age = st.text_input('Age')
     sex = st.text_input('Sex')
-    cp = st.number_input('Chest Pain types')
-    trestbps = st.number_input('Resting Blood Pressure')
-    chol = st.number_input('Serum Cholestoral in mg/dl')
-    fbs = st.number_input('Fasting Blood Sugar > 120 mg/dl')
-    restecg = st.number_input('Resting Electrocardiographic results')
-    thalach = st.number_input('Maximum Heart Rate achieved')
-    exang = st.number_input('Exercise Induced Angina')
-    oldpeak = st.number_input('ST depression induced by exercise')
-    slope = st.number_input('Slope of the peak exercise ST segment')
-    ca = st.number_input('Major vessels colored by flourosopy')
-    thal = st.number_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+    cp = st.text_input('Chest Pain types')
+    trestbps = st.text_input('Resting Blood Pressure')
+    chol = st.text_input('Serum Cholestoral in mg/dl')
+    fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
+    restecg = st.text_input('Resting Electrocardiographic results')
+    thalach = st.text_input('Maximum Heart Rate achieved')
+    exang = st.text_input('Exercise Induced Angina')
+    oldpeak = st.text_input('ST depression induced by exercise')
+    slope = st.text_input('Slope of the peak exercise ST segment')
+    ca = st.text_input('Major vessels colored by flourosopy')
+    thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
        
     
    # code for Prediction
