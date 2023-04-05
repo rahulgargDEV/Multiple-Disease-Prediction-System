@@ -169,39 +169,36 @@ if (selected == 'Breast Cancer Prediction'):
         symmetry_error = st.text_input('Symmetry Error')
     
     with col4:
-        symmetry_mean = st.text_input('symmetry_mean')
-    
-    with col1:
         fractal_dimension_error = st.text_input('fractal_dimension_error')
     
-    with col2:
+    with col1:
         worst_radius = st.text_input('worst_radius')
     
-    with col3:
+    with col2:
         worst_texture = st.text_input('Worst Texture')
     
-    with col4:
+    with col3:
         worst_perimeter = st.text_input('Worst Perimeter')
     
-    with col1:
+    with col4:
         worst_area = st.text_input('Worst Area')
     
-    with col2:
+    with col1:
         worst_smoothless = st.text_input('Worst Smoothless')
     
-    with col3:
+    with col2:
         worst_compactness = st.text_input('Worst Compactness')
     
-    with col4:
+    with col3:
         worst_concavity = st.text_input('Worst Concavity')
     
-    with col1:
+    with col4:
         worst_concave_points = st.text_input('Worst Concave Points')
     
-    with col2:
+    with col1:
         worst_symmetry = st.text_input('Worst Symmetry')
     
-    with col3:
+    with col2:
         worst_fractal_dimension = st.text_input('Worst Fractal Dimension')
 
 
