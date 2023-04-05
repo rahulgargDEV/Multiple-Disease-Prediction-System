@@ -108,38 +108,101 @@ if (selected == 'Breast Cancer Prediction'):
     # page title
     st.title('Breast Cancer Prediction Using ML')
     
-    #input fields 
-    radius_mean = st.text_input('Mean Radius')
-    texture_mean = st.text_input('Mean Texture')
-    perimeter_mean = st.text_input('Mean Perimeter')
-    area_mean = st.text_input('Mean Area')
-    smoothness_mean = st.text_input('Mean Smoothness')
-    compactness_mean = st.text_input('Mean Compactness')
-    concavity_mean = st.text_input('Mean Concavity')
-    concave_points_mean = st.text_input('Mean Concave Points')
-    symmetry_mean = st.text_input('Mean Symmetry')
-    fractal_dimension_mean = st.text_input('Mean Fractal Dimension')
-    radius_error = st.text_input('Radius Error')
-    texture_error = st.text_input('Texture Error')
-    perimeter_error = st.text_input('Perimeter Error')
-    area_error = st.text_input('Area Error')
-    smoothness_error = st.text_input('Smoothness Error')
-    compactness_error = st.text_input('Compactness Error')
-    concavity_error = st.text_input('Concavity Error')
-    concave_point_error = st.text_input('Concave Point Error')
-    symmetry_error = st.text_input('Symmetry Error')
-    symmetry_mean = st.text_input('symmetry_mean')
-    fractal_dimension_error = st.text_input('fractal_dimension_error')
-    worst_radius = st.text_input('worst_radius')
-    worst_texture = st.text_input('Worst Texture')
-    worst_perimeter = st.text_input('Worst Perimeter')
-    worst_area = st.text_input('Worst Area')
-    worst_smoothless = st.text_input('Worst Smoothless')
-    worst_compactness = st.text_input('Worst Compactness')
-    worst_concavity = st.text_input('Worst Concavity')
-    worst_concave_points = st.text_input('Worst Concave Points')
-    worst_symmetry = st.text_input('Worst Symmetry')
-    worst_fractal_dimension = st.text_input('Worst Fractal Dimension')
+    # getting the input data from the user
+    col1, col2, col3, col4 = st.columns(4)
+   
+    with col1:
+        radius_mean = st.text_input('Mean Radius')
+        
+    with col2:
+        texture_mean = st.text_input('Mean Texture')
+        
+    with col3:
+        perimeter_mean = st.text_input('Mean Perimeter')
+   
+   with col4:
+        area_mean = st.text_input('Mean Area')
+    
+    with col1:
+        smoothness_mean = st.text_input('Mean Smoothness')
+    
+    with col2:
+        compactness_mean = st.text_input('Mean Compactness')
+    
+    with col3:
+        concavity_mean = st.text_input('Mean Concavity')
+    
+    with col4:
+        concave_points_mean = st.text_input('Mean Concave Points')
+    
+    with col1:
+        symmetry_mean = st.text_input('Mean Symmetry')
+    
+    with col2:
+        fractal_dimension_mean = st.text_input('Mean Fractal Dimension')
+    
+    with col3:
+        radius_error = st.text_input('Radius Error')
+    
+    with col4:
+        texture_error = st.text_input('Texture Error')
+    
+    with col1:
+        perimeter_error = st.text_input('Perimeter Error')
+    
+    with col2:
+        area_error = st.text_input('Area Error')
+    
+    with col3:
+        smoothness_error = st.text_input('Smoothness Error')
+        
+    with col4:
+        compactness_error = st.text_input('Compactness Error')
+    
+    with col1:
+        concavity_error = st.text_input('Concavity Error')
+    
+    with col2:
+        concave_point_error = st.text_input('Concave Point Error')
+    
+    with col3:
+        symmetry_error = st.text_input('Symmetry Error')
+    
+    with col4:
+        symmetry_mean = st.text_input('symmetry_mean')
+    
+    with col1:
+        fractal_dimension_error = st.text_input('fractal_dimension_error')
+    
+    with col2:
+        worst_radius = st.text_input('worst_radius')
+    
+    with col3:
+        worst_texture = st.text_input('Worst Texture')
+    
+    with col4:
+        worst_perimeter = st.text_input('Worst Perimeter')
+    
+    with col1:
+        worst_area = st.text_input('Worst Area')
+    
+    with col2:
+        worst_smoothless = st.text_input('Worst Smoothless')
+    
+    with col3:
+        worst_compactness = st.text_input('Worst Compactness')
+    
+    with col4:
+        worst_concavity = st.text_input('Worst Concavity')
+    
+    with col1:
+        worst_concave_points = st.text_input('Worst Concave Points')
+    
+    with col2:
+        worst_symmetry = st.text_input('Worst Symmetry')
+    
+    with col3:
+        worst_fractal_dimension = st.text_input('Worst Fractal Dimension')
 
 
    # code for Prediction
